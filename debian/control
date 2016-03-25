@@ -1,0 +1,16 @@
+Source: libwww-mechanize-cgi-perl
+Section: perl
+Priority: optional
+Maintainer: Uli Martens <uli@youam.net>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/WWW-Mechanize-CGI
+
+Package: libwww-mechanize-cgi-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: unknown
+ Provides a convenient way of using CGI applications with WWW::Mechanize.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
