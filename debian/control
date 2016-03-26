@@ -2,14 +2,14 @@ Source: libwww-mechanize-cgi-perl
 Section: perl
 Priority: optional
 Maintainer: Uli Martens <uli@youam.net>
-Build-Depends: debhelper (>= 9), libhttp-request-ascgi-perl
+Build-Depends: debhelper (>= 9), libhttp-request-ascgi-perl, libwww-mechanize-perl
 Build-Depends-Indep: perl
 Standards-Version: 3.9.6
 Homepage: https://metacpan.org/release/WWW-Mechanize-CGI
 
 Package: libwww-mechanize-cgi-perl
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}
+Depends: ${misc:Depends}, ${perl:Depends}, libhttp-request-ascgi-perl, libwww-mechanize-perl
 Description: unknown
  Provides a convenient way of using CGI applications with WWW::Mechanize.
  .
